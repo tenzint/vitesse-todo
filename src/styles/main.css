@@ -1,11 +1,18 @@
 @import './markdown.css';
 
+*, ::before, ::after {
+  transition: all ease-in-out 250ms;
+  box-sizing: border-box; 
+}
+
 html,
 body,
 #app {
   height: 100%;
   margin: 0;
   padding: 0;
+  font-size: 1em;
+  line-height: 2;
 }
 
 html.dark {
